@@ -1,0 +1,2 @@
+1. Copy these files to some place visible on your web server.
+2. Copy config.php.example to config.php and edit to suit your environment.
