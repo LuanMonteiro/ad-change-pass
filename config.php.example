@@ -1,9 +1,9 @@
 <?php
   $LANG='en'; // Language to use
-  $config['ldapServers'] = 'ldaps://dc.office:636'; // this has to be ldaps
+  $config['ldapServers'] = 'ldaps://dc.office:636';
   $config['domain'] = 'office.com';
   $config['domain_dn'] = 'dc=office,dc=com';
   $config['enterprise_name'] = 'Your Company';
-  $config['user'] = 'adminuser';
+  $config['user'] = 'adminuser'; // without the domain suffix, eg 'admin', not 'admin@office.com'
   $config['pass'] = 'adminpass';
 ?>

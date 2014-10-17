@@ -1,2 +1,5 @@
 1. Copy these files to some place visible on your web server.
 2. Copy config.php.example to config.php and edit to suit your environment.
+3. Be sure to have a proper PHP installation in your web server.
+4. Install htmlpurifier and ldap support for php. For Ubuntu/Debian, it is as easy as:
+   apt-get install php-htmlpurifier php5-ldap
