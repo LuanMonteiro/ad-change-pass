@@ -13,7 +13,7 @@
     "new_password2"           : "Neues Passwort (wiederholen)",
     "password_change_failed"  : "Das Passwort konnte nicht geändert werden!",
     "password_changed"        : "Passwort wurde geändert",
-    "title"                   : "%s - Passwort zuruecksetzen",
+    "title"                   : "%s - Passwort zurücksetzen",
     "username"                : "Benutzername",
     "wrong_admin"             : "Fehlerhafte Konfiguration",
     "wrong_new_pass"          : "Passwoerter stimmen nicht überein",
