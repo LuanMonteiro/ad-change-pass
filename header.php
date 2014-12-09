@@ -1,5 +1,5 @@
 <?php global $config; ?>
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="tr-TR">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="<?php echo $LANG;?>">
 <head profile="http://gmpg.org/xfn/11">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title><?php printf(msg('title'),$config['enterprise_name']);?></title>
