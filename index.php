@@ -36,13 +36,13 @@
     $username=$purifier->purify($username);
   }
   if (isset($_POST['password'])) {
-    $password=ldapspecialchars($_POST['password']);
+    $password=$_POST['password'];
   }
   if (isset($_POST['np1'])) {
-    $np1=ldapspecialchars($_POST['np1']);
+    $np1=$_POST['np1'];
   }
   if (isset($_POST['np2'])) {
-    $np2=ldapspecialchars($_POST['np2']);
+    $np2=$_POST['np2'];
   }
   if ($username!='') {
     $is_auth = check_pass($username,$password);
