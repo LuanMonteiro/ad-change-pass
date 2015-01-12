@@ -78,15 +78,7 @@
         return msg('account_locked');
       }
       $userDn = $info[0]["distinguishedname"][0];
-      $newPassword = $new_pass;
-      $newPassword = "\"" . $newPassword . "\"";
-      $len = strlen($newPassword);
-      $newPassw = "";
-      for ($i = 0; $i < $len; $i++) {
-        $newPassw .= "{$newPassword{$i}}\000";
-      }
-      $newPassword = $newPassw;
-      $userdata["unicodePwd"] = $newPassword;
+      $userdata["unicodePwd"] = iconv("UTF-8", "UTF-16LE", '"' . $new_pass . '"');
       $result = ldap_mod_replace($ldap_connection, $userDn , $userdata);
       if (!$result) {
         return msg(ldap_error($ldap_connection));
