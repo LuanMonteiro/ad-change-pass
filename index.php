@@ -66,7 +66,5 @@
   } else {
     include 'form-chpass.php';
   }
-?>
-<?php
   include 'footer.php';
 ?>
