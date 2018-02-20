@@ -1,0 +1,24 @@
+{
+  "pt_br" : {
+    "help_file"               : "lang/help-pt_br.html",
+
+    "account_locked"          : "Esta conta está bloqueada",
+    "authentication"          : "Autenticação",
+    "cancel"                  : "Cancelar",
+    "index_link"              : "Alterar Senha",
+    "help_link"               : "Ajuda",
+    "ok"                      : "OK",
+    "old_password"            : "Senha Antiga",
+    "new_password1"           : "Nova Senha",
+    "new_password2"           : "Nova Senha (Repita)",
+    "password_change_failed"  : "Não foi possível alterar a senha",
+    "password_changed"        : "Senha Alterada",
+    "title"                   : "%s - Resetar a senha",
+    "username"                : "Nome de Usuário",
+    "wrong_admin"             : "Problemas de Configuração",
+    "wrong_new_pass"          : "Senha não corresponde nas duas caixas",
+    "wrong_pass"              : "Senha Incorreta",
+
+    "O servidor não consegue executar a ação" : "Ação é rejeitada pelo servidor"
+  }
+}
