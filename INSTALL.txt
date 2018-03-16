@@ -3,3 +3,8 @@
 3. Be sure to have a proper PHP installation in your web server.
 4. Install htmlpurifier and ldap support for php. For Ubuntu/Debian, it is as easy as:
    apt-get install php-htmlpurifier php5-ldap
+5. If you server doesn't have a valide certificate, or if you desire ignorate te certificate:
+   edit the file /etc/openldap/ldap.conf
+   and add this line:
+   TLS_REQCERT     never
+   reboot the server to validade the configuration
